@@ -4,24 +4,38 @@
 <meta charset="utf-8">
 <title>即將面對什麼威脅呢</title>
 <style type="text/css">
-	table tr td{
-		width: 130px;
-		height: 60px;
-		padding: 5px;
-		color: #FFCECF;
-		font: "15px 微軟正黑體";
-		text-align: center;
-	}
-body {
+	body {
 	margin-top: 0px;
-}
+	}
+	table tr td{
+    width: 130px;
+    height: 60px;
+    padding: 5px;
+    color: #FFCECF;
+    font: "15px 微軟正黑體";
+    text-align: center;
+	}
+	#bor1{
+    border-right-width: thin;
+    border-right-style: solid;
+	}
+	#bor2{
+	border-right-width: thin;
+    border-left-width: thin;
+    border-right-style: solid;
+    border-left-style: solid;
+	}
+	#bor3{
+	border-left-width: thin;
+    border-left-style: solid;
+	}
 </style>
 </head>
 
 <body>
 	<table border="0" align="center" cellspacing="0" bgcolor="#AC005A">
 	<tr>
-	  <td>仍要開始遊戲</td><td>等待網路連接</td><td>發呆</td></tr>	
+	  <td id="bor1">仍要開始遊戲</td><td id="bor2">等待網路連接</td><td id="bor3">發呆</td></tr>	
 	</table>
 </body>
 </html>
